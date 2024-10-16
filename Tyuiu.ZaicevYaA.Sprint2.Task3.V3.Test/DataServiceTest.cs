@@ -8,9 +8,9 @@ namespace Tyuiu.ZaicevYaA.Sprint2.Task3.V3.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            double x = 2 ;
+            double x = 5 ;
             double res = ds.Calculate(x);
-            double wait = 36;
+            double wait = 37.969;
             Assert.AreEqual(wait,res);
         }
         public void TestMethod2()
