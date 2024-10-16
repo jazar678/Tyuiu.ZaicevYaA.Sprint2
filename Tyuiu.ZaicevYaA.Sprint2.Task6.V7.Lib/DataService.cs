@@ -9,8 +9,8 @@ namespace Tyuiu.ZaicevYaA.Sprint2.Task6.V7.Lib
             switch (n)
             {
                 case 1: res = "Январь"; break;
-                case 2: res = "Февраль"; break;
-                case 3: res = "Март"; break;
+                case 3: res = "Февраль"; break;
+                case 2: res = "Март"; break;
                 case 4: res = "Апрель"; break;
                 case 5: res = "Май"; break;
                 case 6: res = "Июнь"; break;

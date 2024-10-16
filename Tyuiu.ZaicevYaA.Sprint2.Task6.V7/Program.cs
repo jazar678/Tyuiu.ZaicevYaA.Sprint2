@@ -22,17 +22,15 @@ namespace Tyuiu.ZaicevYaA.Sprint2.Task6.V7
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ :                                             *");
             Console.WriteLine("*****************************************************************");
             Console.WriteLine("Введите знчение от 1 до 12");
-            int n = Convert.ToInt32(Console.ReadLine());
+            int num = Convert.ToInt32(Console.ReadLine());
             string res;
-           
-            if ((n < 1) || (n> 12))
+            if ((num < 1) || (num > 12))
             {
                 res = "Введено неверное значение";
-
             }
             else
             {
-                res = "Это месяц :" + ds.FindMonthName(1990, n);
+                res = "Это месяц :" + ds.FindMonthName(1990, num);
             }
             Console.WriteLine("*****************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                    *");
