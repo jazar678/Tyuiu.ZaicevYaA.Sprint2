@@ -8,18 +8,18 @@ namespace Tyuiu.ZaicevYaA.Sprint2.Task6.V7.Lib
             string res;
             switch (n)
             {
-                case 1: res = "Январь"; break;
-                case 3: res = "Февраль"; break;
-                case 2: res = "Март"; break;
-                case 4: res = "Апрель"; break;
-                case 5: res = "Май"; break;
-                case 6: res = "Июнь"; break;
-                case 7: res = "Июль"; break;
-                case 8: res = "Август"; break;
-                case 9: res = "Сентябрь"; break;
-                case 10: res = "Октябрь"; break;
-                case 11: res = "Ноябрь"; break;
-                case 12: res = "Декабрь"; break;
+                case 1: res = "январь"; break;
+                case 3: res = "февраль"; break;
+                case 2: res = "март"; break;
+                case 4: res = "апрель"; break;
+                case 5: res = "май"; break;
+                case 6: res = "июнь"; break;
+                case 7: res = "июль"; break;
+                case 8: res = "август"; break;
+                case 9: res = "сентябрь"; break;
+                case 10: res = "октябрь"; break;
+                case 11: res = "ноябрь"; break;
+                case 12: res = "декабрь"; break;
                 default:
                     throw new ArgumentException($"Число должно быть от 1 до 12. Значение {n}");
 
