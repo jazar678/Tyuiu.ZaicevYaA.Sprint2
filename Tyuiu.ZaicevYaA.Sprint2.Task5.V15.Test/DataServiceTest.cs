@@ -16,8 +16,7 @@ namespace Tyuiu.ZaicevYaA.Sprint2.Task5.V15.Test
             Assert.AreEqual("Суббота", ds.FindDayName(6));
             Assert.AreEqual("Воскресенье", ds.FindDayName(7));
             Assert.ThrowsException<ArgumentException>(() => ds.FindDayName(-1));
-            Assert.ThrowsException<ArgumentException>(() => ds.FindDayName(32));
-
+            Assert.ThrowsException<ArgumentException>(() => ds.FindDayName(8));
         }
     }
 }

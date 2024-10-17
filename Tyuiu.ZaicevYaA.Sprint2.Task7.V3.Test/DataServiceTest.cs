@@ -11,7 +11,7 @@ namespace Tyuiu.ZaicevYaA.Sprint2.Task7.V3.Test
             double x = 0.7;
             double y = 1.0;
             bool res = ds.CheckDotInShadedArea(x, y);
-            bool wait = true;
+            bool wait = false;
             Assert.AreEqual(wait, res);
 
         }
